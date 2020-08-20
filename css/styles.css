@@ -1,0 +1,220 @@
+/***** Font families that are placed in the index page
+
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+
+*******/
+
+
+.png {
+  width: 200px;
+  height:200px;
+
+}
+.web {
+  border-radius: 50px;
+  height: 150px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.cam {
+  border-radius: 50px;
+  height: 150px;
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+
+}
+.music {
+  height: 150px;
+  width: 25%;
+  border-radius: 50px;
+  float: left;
+  margin-left: 30px;
+
+}
+
+.twitter {
+  height: 100px;
+  width: 100px;
+}
+.linkedin {
+  height: 100px;
+  width: 100px;
+
+}
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: Merriweather', serif;
+}
+
+/*
+.weight {
+  font-weight: normal;
+}*/
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  line-height: 2px;
+
+}
+
+h2 {
+  font-size: 2.525rem;
+  font-family:  sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+p{
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Merriweather', serif ;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #EAF6f6;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding: 100px;
+
+}
+.middle-container {
+  margin: 100px 0;
+
+
+
+}
+
+.bottom-container {
+
+  position: relative;
+  top: 50px;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  text-align: center;
+
+}
+.pro {
+  text-decoration: underline;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.copyright {
+color: #EAF6f6;
+font-size: 0.75em;
+padding: 20px 0;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+  color: #40514E;
+}
+
+.skill-row {
+ width: 50%;
+ margin: 100px auto 100px auto;
+ text-align: left;
+ height: 150px
+}
+
+.clearleft {
+  clear: left;
+}
+.clearight {
+  clear: right;
+}
+
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top:40px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left:250px;
+  bottom: 320px;
+
+}
+
+
+hr {
+  border-style: none;
+  border-width: 6px;
+  width: 5%;
+  border-top-style: dotted;
+  border-bottom: none;
+  border-color: grey;
+  margin: 100px auto;
+
+}
+
+
+
+.btn {
+
+background:linear-gradient(to bottom, #11999E 5%, #11999E 100%);
+
+background-color:#11999E;
+
+border-radius:15px;
+
+display:inline-block;
+
+cursor:pointer;
+
+color:#ffffff;
+
+font-family: 'Montserrat', sans-serif;
+
+font-size:17px;
+
+padding:11px 23px;
+
+text-decoration:none;
+
+}
+
+.btn:hover {
+
+background:linear-gradient(to bottom, #8FCFD1 5%, #8FCFD1 100%);
+
+background-color:#8FCFD1;
+
+}
+
+.btn:active {
+
+position:relative;
+
+top:1px;
+
+}
